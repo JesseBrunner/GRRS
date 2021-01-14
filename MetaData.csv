@@ -1,0 +1,39 @@
+﻿studyTitle,"Title of scientific publication from which data were obtained, or title provided by submitter"
+studyYear,Year of publication
+studyJournal,"Name of journal of publication, or contact information provided by submitter"
+studyVolume,Volume of publication
+studyPages,Page range of publication
+eventDate,"Date of sample collection, as close as can be determined. When dates are not provided we have used January 1st of the year of publication and when only a month or season (or range of years!) is provided we have done or best to find a reasonable midpoint."
+eventYear,"Year in which sample(s) were collected, from eventDate"
+eventLocation.country,Country of sample collection
+eventLocation.degreesLat,"Location data were entered as available in the reference (either degrees, minutes, seconds, or decimal degree). When location was vague we used the location of the nearest named town or midpoint of a province or country (from Google Maps). When animals had been imported, we used the source location if provided and sampling was within a month or two from importation, or the recipient location otherwise."
+eventLocation.minutesLat,
+eventLocation.secondsLat,
+eventLocation.degreesLon,
+eventLocation.minutesLon,
+eventLocation.secondsLon,
+lat,"Decimal-degree latitude, often converted from Degrees, minutes, seconds"
+long,"Decimal-degree longitude, often determined from Degrees, minutes, seconds"
+vertebrateClass,"Fish, amphibian, or reptile"
+speciesName,"Genus and species from which sample(s) taken, as listed in publication"
+Family,"Family of specimen, inferred from genus"
+Order,Order of specimen inferred from genus
+Genus,"Genus of specimen, perhaps ""translated"" from lookup table (Genera_good.csv) to harmonize names."
+Egg,"Sample includes eggs? (0=no, 1=yes)"
+Larva,"Sample includes larva? (0=no, 1=yes)"
+Juvenile,"Sample includes juvenile? (0=no, 1=yes)"
+Adult,"Sample includes adult? (0=no, 1=yes)"
+speciesAffectedType,Whether the species sampled is native or introduced (or NA if it could not be determined)
+populationType,"Whether the population sampled is wild, production (e.g., farmed or ranched; with intent to distribute animals), or zoological (e.g., zoo or private collection, research colony)"
+screeningReason,"Whether the samples were collected  in response to morbidity or mortality event, or instead part of routine surveillance (i.e., not in response to morbidity or mortality in these animals)"
+numInvolved,"Number of individual animals or a range of animals involved in (e.g., die-off) event."
+totalAnimalsTested,Number of individual animals tested for presence of ranavirus
+totalAnimalsConfirmedInfected,Number of individual animals in which ranavirus presence was confirmed
+totalAnimalsConfirmedDiseased,"Number of individual animals in which disease (i.e., ranavirosis) was confirmed; maybe be different from number tested for infection"
+Isolation,"Was virus isolation in cell culture used? (0=no, 1=yes)"
+EM,"Was electron microscopy used? (0=no, 1=yes)"
+PCR,"Was polymerase chain reaction with ranavirus-specific primers used? (0=no, 1=yes)"
+qPCR,"Was real-time polymerase chain reaction with ranavirus-specific primers and probe used, whether quantitative or not? (0=no, 1=yes)"
+Sequencing,"Was at least some of the viral genome sequenced? (0=no, 1=yes)"
+genBankAccessionNumbers,"If at least some of the viral genome was sequenced, the GenBank accession number (https://www.ncbi.nlm.nih.gov/genbank/) if provided"
+ranaSpecies,"If provided, ""species"" of ranavirus; note that this probably does not reflect current taxonomy"
