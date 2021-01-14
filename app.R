@@ -20,7 +20,6 @@ ui <- fluidPage(title = "Global Ranavirus Reporting System",
                 tabsetPanel(
                     tabPanel(title = "GRRS Map",
                              tags$style(type = "text/css", "html, body {width:100%;height:100%}"),
-
                              leafletOutput("map", width = "100%", height = "700")
                     ),
                     tabPanel( title = "Filter & download data",
