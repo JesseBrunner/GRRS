@@ -64,7 +64,7 @@ ui <- fluidPage(title = "Global Ranavirus Reporting System",
                              p("The database was populated in large part by Amanda Duffus, Jesse Brunner, and many members of the Brunner lab, in particular Ana Trejo. We are also pleased to acknowledge the support of the Wildlife Disease Association for a small grant to support the data entry."),
                              h3("Citation"),
                              p("Please cite the GRRS as:"),
-                             p("Brunner, J. L., D. H. Olson, M. J. Gray, D. L. Miller, and A. L. J. Duffus. in review. Global patterns of ranavirus reports in the GRRS. FACETS"),
+                             p("Brunner, J. L., D. H. Olson, M. J. Gray, D. L. Miller, and A. L. J. Duffus. accepted 2021. Global patterns of ranavirus detections. FACETS"),
 
                              h3("Add to or correct the GRRS"),
                              p("This is a work in progress. If you notice a record missing or incorrect, please let us know! First download and fill out to the best of your abilities the template spreadsheet (below). You may want to look at the metadata and the GRRS data for guidance. Then please email the spreadsheet to",
